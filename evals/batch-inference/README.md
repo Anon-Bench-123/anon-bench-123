@@ -1,6 +1,6 @@
 # Anon Bench Batch Inference
 
-This repository contains tools for running batch inference on L2-bench tasks using AWS Bedrock.
+This repository contains tools for running batch inference on Anon-bench tasks using AWS Bedrock.
 
 ## Setup
 

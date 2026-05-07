@@ -1,0 +1,16 @@
+student_id,reading_comprehension,grammar_accuracy,vocabulary_use,writing_task_1,writing_task_2,total_out_of_50
+student_01,7,4,5,6,5,27
+student_02,9,8,7,8,7,39
+student_03,6,3,4,4,3,20
+student_04,8,5,6,5,5,29
+student_05,5,2,3,3,2,15
+student_06,7,6,5,6,6,30
+student_07,8,7,6,7,6,34
+student_08,6,3,3,4,3,19
+student_09,7,4,5,5,4,25
+student_10,9,7,7,7,7,37
+student_11,5,3,3,3,2,16
+student_12,6,4,4,5,4,23
+student_13,8,6,6,6,5,31
+student_14,7,5,5,5,4,26
+student_15,6,3,4,3,3,19

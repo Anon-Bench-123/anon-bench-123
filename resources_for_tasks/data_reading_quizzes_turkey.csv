@@ -1,0 +1,13 @@
+student,quiz_1_reading,quiz_1_vocabulary,quiz_2_reading,quiz_2_vocabulary,quiz_3_reading,quiz_3_vocabulary,quiz_4_reading,quiz_4_vocabulary,quiz_5_reading,quiz_5_vocabulary
+student-1,6,5,6,6,7,6,7,7,8,7
+student-2,4,3,4,4,5,4,5,5,5,5
+student-3,7,7,7,7,8,8,8,8,8,8
+student-4,3,4,3,3,3,4,4,4,4,4
+student-5,5,6,5,6,6,7,6,7,7,7
+student-6,8,7,8,8,9,8,9,9,9,9
+student-7,5,5,4,4,4,4,3,3,3,3
+student-8,4,3,5,4,5,5,6,5,6,6
+student-9,6,6,6,5,5,5,5,5,5,4
+student-10,3,2,3,3,4,3,4,4,5,4
+student-11,5,4,5,5,6,5,6,6,7,6
+student-12,7,6,6,5,6,5,5,5,5,4

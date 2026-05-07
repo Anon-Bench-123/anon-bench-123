@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+l2-bench_tasks.csv
+resources_for_tasks
+input/
+output/
+scratchbook*.ipynb
+.env
+.tmpnote/
+logs
+
+.DS_Store
+.vscode
+.agents
+.claude/
+
+eee_output/

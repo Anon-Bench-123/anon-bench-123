@@ -1,0 +1,13 @@
+student_id,student_name,test_1_sept,test_2_sept,test_3_oct,test_4_oct,test_5_nov,test_6_nov,initial_level,current_level,progress
+R001,Ananya Sharma,45,52,58,65,72,78,A2,B1,Significant
+R002,Rajesh Kumar,68,72,75,78,82,85,B1,B2,Good
+R003,Priya Patel,82,85,87,89,91,93,B2,B2+,Steady
+R004,Vikram Singh,38,42,48,54,60,66,A1,A2,Excellent
+R005,Deepika Reddy,75,78,80,83,86,88,B1,B2,Good
+R006,Arjun Gupta,55,60,65,70,75,80,A2,B1,Significant
+R007,Neha Verma,91,92,94,95,96,97,C1,C1,Steady
+R008,Rohan Iyer,48,53,59,65,71,76,A2,B1,Significant
+R009,Kavya Nair,72,75,78,81,84,87,B1,B2,Good
+R010,Aditya Menon,62,66,70,74,78,82,B1,B1+,Good
+R011,Sneha Rao,35,40,46,52,58,64,A1,A2,Excellent
+R012,Karthik Krishnan,85,87,89,90,92,94,B2,B2+,Steady

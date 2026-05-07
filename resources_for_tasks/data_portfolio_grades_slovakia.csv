@@ -1,0 +1,8 @@
+student,portfolio1_task_completion,portfolio1_accuracy,portfolio1_creativity,portfolio2_task_completion,portfolio2_accuracy,portfolio2_creativity,portfolio3_task_completion,portfolio3_accuracy,portfolio3_creativity,portfolio4_task_completion,portfolio4_accuracy,portfolio4_creativity
+student-1,B,C,B,B,B,B,A,B,B,A,B,A
+student-2,C,C,C,C,C,C,C,C,C,B,C,C
+student-3,A,B,A,A,A,A,A,A,A,A,A,A
+student-4,C,D,C,C,C,C,B,C,B,B,C,B
+student-5,B,B,C,B,B,B,B,B,B,B,B,B
+student-6,D,D,D,D,D,C,C,D,C,C,C,C
+student-7,B,A,B,B,A,B,A,A,B,A,A,A

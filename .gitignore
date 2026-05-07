@@ -1,0 +1,78 @@
+# Python
+.ipynb_checkpoints
+__pycache__
+*.egg-info
+*.pyc
+
+# Environment
+.env
+.venv
+venv
+
+# IDE
+.agents/
+*.code-workspace
+.claude
+.claude-flow
+.cursor/rules
+.github/copilot-instructions.md
+.obsidian/
+.roo
+.roomodes
+.swarm
+.windsurfrules
+.vscode
+!.vscode/settings.json
+skills-lock.json
+
+# Dev
+.coverage
+.pytest_cache
+.ruff_cache
+coverage.xml
+
+# OS
+.DS_Store
+
+# HTML previews
+*_files/
+
+# Eval data (stored in SharePoint, copied locally)
+evals/logs/
+evals/outputs/
+evals/reruns/logs/
+
+# Local
+.martin/
+analysis/figures/
+docs/brand_guides/
+tasks/
+validation/oup/oup_analysis/outputs/figures/
+validation/oup/oup_analysis/outputs/latex_tables_equations/
+validation/oup/oup_analysis/outputs/visuals/
+validation/oup/oup_app_inputs/oup_app_secure/
+validation/oup/oup_raw_app/comms
+validation/oup/oup_raw_survey/oup_raw_survey_secure/
+validation/oup/oup_raw_survey/oup_survey_templates/
+validation/uob/uob_analysis/figures/
+validation/uob/uob_team_reports/
+
+# Local temp
+docs/writing/neurips_latex/
+docs/writing/neurips_croissant/
+docs/writing/neurips_paper_old_md.md
+validation/oup/oup_analysis/opc_user_findings.csv
+docs/writing/L2_Bench__NeurIPS_2026/neurips_paper.aux
+docs/writing/L2_Bench__NeurIPS_2026/neurips_paper.blg
+docs/writing/L2_Bench__NeurIPS_2026/neurips_paper.log
+docs/writing/L2_Bench__NeurIPS_2026/neurips_paper.out
+docs/writing/L2_Bench__NeurIPS_2026/neurips_paper.pdf
+docs/writing/L2_Bench__NeurIPS_20262
+docs/writing/L2_Bench__NeurIPS_20263
+docs/writing/L2_Bench__NeurIPS_20264
+docs/writing/L2_Bench__NeurIPS_20265
+docs/writing/L2_Bench__NeurIPS_20266
+docs/writing/L2_Bench__NeurIPS_20267
+docs/writing/L2_Bench__NeurIPS_20268
+docs/writing/L2_Bench__NeurIPS_20269
+docs/writing/L2_Bench__NeurIPS_202610

@@ -1,0 +1,37 @@
+[project]
+name = "elt-bench-eval"
+version = "0.1.0"
+description = "ELT-Bench response generation using inspect-ai with AWS Bedrock"
+requires-python = ">=3.13"
+dependencies = [
+    "inspect-ai>=0.3.60",
+    "pandas>=2.2.0",
+    "loguru>=0.7.0",
+    "python-dotenv>=1.0.0",
+    "every-eval-ever",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.0",
+]
+
+[project.scripts]
+elt-bench-eval = "elt_bench_eval.run:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/elt_bench_eval"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.uv.sources]
+every-eval-ever = { git = "https://github.com/evaleval/every_eval_ever" }

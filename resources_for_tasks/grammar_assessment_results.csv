@@ -1,0 +1,13 @@
+student_id,student_name,present_tenses,past_tenses,future_forms,conditionals,passive_voice,reported_speech,modal_verbs,relative_clauses,total_score,grade
+G001,Anna Kowalski,18,16,14,12,10,11,15,13,109,B
+G002,Piotr Nowak,22,20,18,16,15,14,19,17,141,A
+G003,Maria Wisniewski,12,10,8,6,5,6,9,7,63,D
+G004,Jakub Kaminski,24,23,22,20,19,18,22,21,169,A
+G005,Zofia Lewandowski,16,14,12,10,8,9,13,11,93,C
+G006,Mikolaj Wojcik,20,18,16,14,13,12,17,15,125,B
+G007,Aleksandra Kowalczyk,14,12,10,8,7,8,11,9,79,C
+G008,Bartosz Mazur,23,21,19,18,17,16,20,19,153,A
+G009,Natalia Krawczyk,17,15,13,11,10,11,14,12,103,B
+G010,Mateusz Piotrowski,25,24,23,22,21,20,24,23,182,A
+G011,Karolina Grabowski,13,11,9,7,6,7,10,8,71,D
+G012,Wojciech Nowicki,21,19,17,15,14,13,18,16,133,A

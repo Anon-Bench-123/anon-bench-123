@@ -1,0 +1,9 @@
+student,month_1_fluency,month_1_accuracy,month_1_range,month_2_fluency,month_2_accuracy,month_2_range,month_3_fluency,month_3_accuracy,month_3_range,month_4_fluency,month_4_accuracy,month_4_range
+student-1,3,2,2,3,3,3,4,3,3,4,4,4
+student-2,4,4,3,4,4,4,5,5,4,5,5,5
+student-3,2,3,2,2,3,2,3,3,3,3,3,3
+student-4,5,4,4,5,4,4,5,5,5,5,5,5
+student-5,3,2,3,3,2,3,3,2,3,3,2,3
+student-6,2,2,2,3,2,2,3,3,3,4,3,3
+student-7,4,3,3,4,3,3,4,3,4,4,4,4
+student-8,3,3,2,3,3,3,3,4,3,4,4,3

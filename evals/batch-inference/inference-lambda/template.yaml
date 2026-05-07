@@ -1,0 +1,82 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  l2-bench-inference-lambda
+
+  SAM Template for rate-limited batch inference using Step Functions + SQS + Lambda
+
+Globals:
+  Function:
+    Timeout: 900
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: S3 bucket for inference inputs and outputs
+  SecretArn:
+    Type: String
+    Description: ARN of the Secrets Manager secret for Azure OpenAI credentials
+
+Resources:
+  InferenceQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      VisibilityTimeout: 900
+
+  RunInferenceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: run_inference/
+      Handler: app.lambda_handler
+      Runtime: python3.14
+      Architectures:
+        - x86_64
+      Environment:
+        Variables:
+          BUCKET_NAME: !Ref BucketName
+          SECRET_ARN: !Ref SecretArn
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Ref BucketName
+        - S3WritePolicy:
+            BucketName: !Ref BucketName
+        - AWSSecretsManagerGetSecretValuePolicy:
+            SecretArn: !Ref SecretArn
+
+  InferenceStateMachine:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      DefinitionUri: statemachine/inference.asl.json
+      DefinitionSubstitutions:
+        QueueUrl: !Ref InferenceQueue
+        FunctionArn: !GetAtt RunInferenceFunction.Arn
+      Policies:
+        - LambdaInvokePolicy:
+            FunctionName: !Ref RunInferenceFunction
+        - Statement:
+            - Effect: Allow
+              Action:
+                - sqs:ReceiveMessage
+                - sqs:DeleteMessage
+                - sqs:GetQueueAttributes
+              Resource: !GetAtt InferenceQueue.Arn
+            - Effect: Allow
+              Action:
+                - sqs:ReceiveMessage
+                - sqs:DeleteMessage
+                - sqs:GetQueueAttributes
+              Resource: arn:aws:sqs:us-east-1:894566155345:l2-bench-inference-*
+
+Outputs:
+  InferenceQueueUrl:
+    Description: "SQS queue URL for submitting inference tasks"
+    Value: !Ref InferenceQueue
+  RunInferenceFunction:
+    Description: "Lambda Function ARN"
+    Value: !GetAtt RunInferenceFunction.Arn
+  RunInferenceFunctionIamRole:
+    Description: "IAM Role created for the Lambda function"
+    Value: !GetAtt RunInferenceFunctionRole.Arn
+  InferenceStateMachineArn:
+    Description: "Step Functions state machine ARN"
+    Value: !Ref InferenceStateMachine

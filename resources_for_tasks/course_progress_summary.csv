@@ -1,0 +1,13 @@
+student_id,student_name,units_completed,units_total,completion_percentage,average_quiz_score,average_assignment_score,participation_grade,current_overall_grade,on_track,areas_needing_attention
+CP01,Thanh Nguyen,8,12,66.7,78,82,B+,80,Yes,Grammar exercises
+CP02,Linh Tran,12,12,100,92,95,A,94,Yes,None
+CP03,Minh Pham,5,12,41.7,62,58,C,60,No,Attendance and assignments
+CP04,Hoa Le,11,12,91.7,88,91,A-,89,Yes,Speaking confidence
+CP05,Duc Vo,7,12,58.3,72,75,B,73,Borderline,Listening comprehension
+CP06,Lan Hoang,10,12,83.3,85,87,A-,86,Yes,Vocabulary expansion
+CP07,Tuan Dang,4,12,33.3,55,52,D,54,No,All areas - needs intervention
+CP08,Mai Bui,12,12,100,91,94,A,93,Yes,None
+CP09,Hung Ngo,9,12,75,80,83,B+,81,Yes,Writing organization
+CP10,Thuy Truong,12,12,100,96,98,A+,97,Yes,None
+CP11,Khoa Do,6,12,50,68,65,C+,67,No,Homework completion
+CP12,Anh Phan,11,12,91.7,87,89,A-,88,Yes,Pronunciation

@@ -1,0 +1,9 @@
+question_number,question_type,result
+1,main idea,Correct
+2,specific detail,Correct
+3,specific detail,Incorrect
+4,inference,Incorrect
+5,vocabulary in context,Correct
+6,speaker opinion,Incorrect
+7,specific detail,Correct
+8,sequence of events,Correct

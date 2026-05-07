@@ -1,0 +1,9 @@
+student,month_1_fluency,month_1_accuracy,month_1_pronunciation,month_1_interaction,month_2_fluency,month_2_accuracy,month_2_pronunciation,month_2_interaction,month_3_fluency,month_3_accuracy,month_3_pronunciation,month_3_interaction,month_4_fluency,month_4_accuracy,month_4_pronunciation,month_4_interaction,month_5_fluency,month_5_accuracy,month_5_pronunciation,month_5_interaction
+student-1,4,3,3,5,4,3,3,5,5,4,4,6,5,4,4,6,5,4,4,7
+student-2,3,3,4,3,3,4,4,3,4,4,5,4,4,5,5,4,5,5,5,5
+student-3,5,5,4,4,5,5,4,5,6,6,5,5,6,6,5,6,7,7,6,6
+student-4,3,2,3,4,3,2,3,4,3,2,3,4,3,3,3,5,3,3,3,5
+student-5,4,4,3,4,4,4,4,4,5,5,4,5,5,5,5,5,6,5,5,6
+student-6,2,3,2,2,3,3,3,2,3,3,3,3,3,4,3,3,4,4,4,4
+student-7,5,4,5,5,6,4,5,5,6,5,6,6,6,5,6,6,7,5,6,7
+student-8,4,3,4,3,4,3,4,4,4,3,4,4,5,4,5,5,5,4,5,5

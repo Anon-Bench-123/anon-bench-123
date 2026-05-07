@@ -1,0 +1,11 @@
+student_id,task_completion,grammar_accuracy,vocabulary_range,coherence_organisation,relevance_to_topic
+student_01,8,4,5,6,9
+student_02,7,6,6,5,8
+student_03,9,3,4,4,9
+student_04,6,7,7,7,7
+student_05,8,5,5,3,8
+student_06,7,4,4,5,7
+student_07,9,6,7,6,9
+student_08,5,3,3,3,6
+student_09,8,5,6,6,8
+student_10,7,4,5,4,7

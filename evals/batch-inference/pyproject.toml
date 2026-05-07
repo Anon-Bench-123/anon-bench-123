@@ -1,0 +1,21 @@
+[project]
+name = "l2-bench-batch-inference"
+version = "0.1.0"
+description = "Batch inference scripts for L2-bench evaluation"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.97.0",
+    "boto3>=1.40.61",
+    "elt-bench-eval",
+    "google-genai>=1.74.0",
+    "inspect-ai>=0.3.60",
+    "ipywidgets>=8.1.8",
+    "loguru>=0.7.3",
+    "openai>=2.33.0",
+    "pandas>=3.0.2",
+    "rich>=14.0.0,<15.0.0",
+]
+
+[tool.uv.sources]
+elt-bench-eval = { path = "..", editable = true }

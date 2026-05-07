@@ -1,0 +1,9 @@
+student,self_speaking_oct,self_writing_oct,self_listening_oct,test_speaking_oct,test_writing_oct,test_listening_oct,self_speaking_dec,self_writing_dec,self_listening_dec,test_speaking_dec,test_writing_dec,test_listening_dec,self_speaking_feb,self_writing_feb,self_listening_feb,test_speaking_feb,test_writing_feb,test_listening_feb
+student-1,3,4,3,5,6,4,4,4,4,6,6,5,5,5,4,7,7,6
+student-2,5,5,5,4,4,5,5,5,5,5,5,5,5,5,5,5,5,6
+student-3,2,3,2,6,5,6,3,3,3,7,6,7,4,4,4,8,7,8
+student-4,4,3,4,3,3,4,3,3,3,4,3,4,3,3,3,4,4,5
+student-5,6,6,6,7,7,6,7,6,6,8,7,7,7,7,7,8,8,7
+student-6,3,2,3,3,4,3,4,3,4,4,4,4,4,3,4,5,5,5
+student-7,5,4,5,6,5,6,5,5,5,6,6,7,5,5,5,7,6,7
+student-8,2,2,2,5,4,4,2,3,3,5,5,5,3,3,3,6,6,6

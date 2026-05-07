@@ -1,0 +1,9 @@
+assessment_date,reading_level,writing_level,listening_level,speaking_level,grammar_mastery,vocabulary_size_estimate,fluency_rating,accuracy_rating,overall_cefr,teacher_notes
+2025-09-01,A2,A2,A1,A2,65,800,4,5,A2,Starting point - basic communication skills
+2025-09-15,A2,A2,A2,A2,68,850,5,5,A2,Improved listening comprehension
+2025-10-01,A2+,A2,A2,A2,72,920,5,6,A2,Reading showing good progress
+2025-10-15,A2+,A2+,A2,A2,75,980,5,6,A2+,Writing complexity increasing
+2025-11-01,B1,A2+,A2+,A2+,78,1050,6,6,A2+,Breaking into B1 in reading
+2025-11-15,B1,B1,A2+,A2+,82,1150,6,7,B1,Significant vocabulary growth
+2025-12-01,B1,B1,B1,B1,85,1250,7,7,B1,All skills now at B1 level
+2025-12-15,B1,B1,B1,B1,87,1320,7,7,B1,Consolidating B1 proficiency

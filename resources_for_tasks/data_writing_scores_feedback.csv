@@ -1,0 +1,13 @@
+student,task_completion,grammar_accuracy,vocabulary_range,coherence_organisation,total_out_of_40
+student-1,8,5,7,6,26
+student-2,9,8,8,9,34
+student-3,7,4,5,4,20
+student-4,8,7,6,7,28
+student-5,6,3,4,3,16
+student-6,9,7,7,8,31
+student-7,7,6,5,5,23
+student-8,8,4,6,5,23
+student-9,5,3,3,4,15
+student-10,9,8,7,8,32
+student-11,7,5,5,6,23
+student-12,8,6,6,6,26

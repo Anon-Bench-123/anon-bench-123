@@ -1,0 +1,15 @@
+{
+  "Records": [
+    {
+      "messageId": "test-message-id",
+      "receiptHandle": "test-receipt-handle",
+      "body": "{\"model_type\": \"gemini\", \"model\": \"gemini-3-flash-preview\", \"eval_id\": \"test-100-claude-haiku\", \"epoch\": 99, \"task_id\": \"5\"}",
+      "attributes": {},
+      "messageAttributes": {},
+      "md5OfBody": "",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:test-queue",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

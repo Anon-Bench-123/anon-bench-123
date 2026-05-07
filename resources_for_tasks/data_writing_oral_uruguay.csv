@@ -1,0 +1,10 @@
+student,assess1_writing_content,assess1_writing_accuracy,assess1_speaking_fluency,assess1_speaking_accuracy,assess2_writing_content,assess2_writing_accuracy,assess2_speaking_fluency,assess2_speaking_accuracy,assess3_writing_content,assess3_writing_accuracy,assess3_speaking_fluency,assess3_speaking_accuracy,assess4_writing_content,assess4_writing_accuracy,assess4_speaking_fluency,assess4_speaking_accuracy
+student-1,4,3,5,4,4,3,5,4,5,4,5,4,5,4,6,5
+student-2,6,5,4,4,6,5,5,4,7,6,5,5,7,6,5,5
+student-3,3,2,3,2,3,3,3,3,4,3,4,3,4,3,4,3
+student-4,5,5,6,5,5,5,6,5,5,5,6,5,5,5,6,5
+student-5,4,3,4,3,5,4,4,3,5,4,5,4,6,5,5,4
+student-6,7,6,6,6,7,6,7,6,7,7,7,7,8,7,7,7
+student-7,3,3,3,3,3,3,4,3,4,3,4,3,4,4,5,4
+student-8,5,4,5,4,5,4,5,3,5,3,4,3,4,3,4,3
+student-9,4,4,4,4,4,4,5,4,5,4,5,4,5,5,5,5

@@ -1,0 +1,102 @@
+{
+  "Comment": "Rate-limited inference: processes up to 50 SQS messages per minute",
+  "StartAt": "InitCounter",
+  "States": {
+    "InitCounter": {
+      "Type": "Pass",
+      "Result": 0,
+      "ResultPath": "$.batchCount",
+      "Next": "ReceiveMessages"
+    },
+    "ReceiveMessages": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::aws-sdk:sqs:receiveMessage",
+      "Parameters": {
+        "QueueUrl.$": "$.queueUrl",
+        "MaxNumberOfMessages": 10,
+        "WaitTimeSeconds": 1
+      },
+      "ResultPath": "$.receiveResult",
+      "Next": "CheckMessages"
+    },
+    "CheckMessages": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Not": {
+            "Variable": "$.receiveResult.Messages",
+            "IsPresent": true
+          },
+          "Next": "Done"
+        }
+      ],
+      "Default": "ProcessMessages"
+    },
+    "ProcessMessages": {
+      "Type": "Map",
+      "ItemsPath": "$.receiveResult.Messages",
+      "ItemSelector": {
+        "queueUrl.$": "$.queueUrl",
+        "Body.$": "$$.Map.Item.Value.Body",
+        "ReceiptHandle.$": "$$.Map.Item.Value.ReceiptHandle"
+      },
+      "ItemProcessor": {
+        "ProcessorConfig": {
+          "Mode": "INLINE"
+        },
+        "StartAt": "InvokeLambda",
+        "States": {
+          "InvokeLambda": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::aws-sdk:lambda:invoke",
+            "Parameters": {
+              "FunctionName": "${FunctionArn}",
+              "InvocationType": "Event",
+              "Payload.$": "States.JsonToString(States.StringToJson(States.Format('\\{\"Records\":[\\{\"body\":{}\\}]\\}', $.Body)))"
+            },
+            "ResultPath": "$.invokeResult",
+            "Next": "DeleteMessage"
+          },
+          "DeleteMessage": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::aws-sdk:sqs:deleteMessage",
+            "Parameters": {
+              "QueueUrl.$": "$.queueUrl",
+              "ReceiptHandle.$": "$.ReceiptHandle"
+            },
+            "End": true
+          }
+        }
+      },
+      "ResultPath": "$.mapResult",
+      "Next": "IncrementCounter"
+    },
+    "IncrementCounter": {
+      "Type": "Pass",
+      "Parameters": {
+        "queueUrl.$": "$.queueUrl",
+        "batchCount.$": "States.MathAdd($.batchCount, 1)"
+      },
+      "Next": "CheckBatchLimit"
+    },
+    "CheckBatchLimit": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.batchCount",
+          "NumericGreaterThanEquals": 5,
+          "Next": "WaitOneMinute"
+        }
+      ],
+      "Default": "ReceiveMessages"
+    },
+    "WaitOneMinute": {
+      "Type": "Wait",
+      "Seconds": 60,
+      "Next": "InitCounter"
+    },
+    "Done": {
+      "Type": "Succeed"
+    }
+  }
+}

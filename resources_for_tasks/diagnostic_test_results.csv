@@ -1,0 +1,13 @@
+student_id,student_name,reading_score,writing_score,listening_score,speaking_score,grammar_score,vocabulary_score,total_score,recommended_level,placement_decision
+D001,Camila Silva,42,38,45,40,44,41,250,A2,Elementary 2
+D002,Lucas Oliveira,68,65,72,70,69,67,411,B1,Intermediate 1
+D003,Isabella Costa,85,82,88,86,84,83,508,B2,Upper-Intermediate 2
+D004,Gabriel Santos,28,25,32,30,27,29,171,A1,Elementary 1
+D005,Sophia Rodrigues,76,73,79,77,75,74,454,B2,Upper-Intermediate 1
+D006,Miguel Ferreira,52,48,55,53,51,50,309,A2,Pre-Intermediate 1
+D007,Laura Alves,91,88,94,92,90,89,544,C1,Advanced 1
+D008,Rafael Lima,61,58,64,62,60,59,364,B1,Intermediate 1
+D009,Beatriz Carvalho,35,32,38,36,34,33,208,A1,Elementary 2
+D010,Pedro Gomes,82,79,85,83,81,80,490,B2,Upper-Intermediate 2
+D011,Julia Martins,45,42,48,46,44,43,268,A2,Elementary 2
+D012,Bruno Ribeiro,94,91,97,95,93,92,562,C1,Advanced 1

@@ -1,0 +1,13 @@
+student_id,task_organisation_max5,grammar_accuracy_max5,vocabulary_range_max5,task_completion_max5,total_max20,previous_test_total_max20
+student-1,4,3,4,5,16,14
+student-2,2,2,2,3,9,8
+student-3,3,4,3,4,14,15
+student-4,5,4,5,5,19,18
+student-5,2,1,2,2,7,5
+student-6,3,3,3,3,12,10
+student-7,4,4,4,4,16,13
+student-8,1,2,1,2,6,7
+student-9,3,2,3,3,11,12
+student-10,4,3,3,4,14,11
+student-11,2,2,2,3,9,9
+student-12,3,3,4,3,13,14

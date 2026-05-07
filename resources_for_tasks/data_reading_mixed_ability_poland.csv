@@ -1,0 +1,15 @@
+student,initial_level,test_1_literal,test_1_inferential,test_1_vocabulary,test_2_literal,test_2_inferential,test_2_vocabulary,test_3_literal,test_3_inferential,test_3_vocabulary,test_4_literal,test_4_inferential,test_4_vocabulary
+student-1,A2,5,3,4,5,3,5,6,4,5,6,4,6
+student-2,B1,7,6,6,7,6,7,8,7,7,8,7,8
+student-3,A2,4,2,3,4,3,3,5,3,4,5,3,4
+student-4,B1,6,5,5,7,5,6,7,6,6,8,6,7
+student-5,A2,3,2,2,3,2,3,4,3,3,4,3,4
+student-6,B2,8,7,8,8,8,8,9,8,9,9,8,9
+student-7,A2,5,4,3,5,4,4,5,4,4,6,4,4
+student-8,B1,6,4,5,6,4,5,6,5,5,6,5,6
+student-9,A2,4,3,3,4,2,3,3,2,2,3,2,2
+student-10,B1,7,5,6,7,6,6,7,6,7,8,7,7
+student-11,A2,3,3,2,4,3,3,4,4,3,5,4,4
+student-12,B2,8,8,7,9,8,8,9,8,8,9,9,9
+student-13,A2,4,2,3,4,2,3,5,3,4,5,3,4
+student-14,B1,6,5,5,6,5,5,7,5,6,7,6,6

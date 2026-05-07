@@ -1,0 +1,1 @@
+CRITERION_JUDGE_RETRY_SUFFIX = "\nError: You output an invalid value. You MUST output 'true' or 'false' ONLY in your response."

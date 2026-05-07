@@ -1,0 +1,10 @@
+student,self_reading_start,teacher_reading_start,self_writing_start,teacher_writing_start,self_listening_start,teacher_listening_start,self_speaking_start,teacher_speaking_start,self_reading_end,teacher_reading_end,self_writing_end,teacher_writing_end,self_listening_end,teacher_listening_end,self_speaking_end,teacher_speaking_end
+student-1,5,4,4,3,5,4,6,4,7,6,6,5,7,6,8,5
+student-2,3,5,3,4,3,5,3,5,4,7,4,6,4,7,4,7
+student-3,6,6,5,5,6,6,5,5,7,7,6,6,7,7,6,7
+student-4,4,3,5,3,4,4,5,3,5,5,6,5,5,5,6,5
+student-5,7,5,6,4,7,5,7,4,8,6,7,5,8,6,8,5
+student-6,3,4,2,3,3,3,3,3,5,6,4,5,5,5,5,5
+student-7,4,4,4,4,4,4,4,4,6,6,5,5,6,6,5,6
+student-8,2,4,2,3,2,4,2,4,3,6,3,5,3,6,3,6
+student-9,5,5,4,4,5,5,5,5,6,6,5,6,6,7,6,7
